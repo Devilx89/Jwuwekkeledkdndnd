@@ -43,11 +43,11 @@ do
     ThemeManager.AppliedToTab = false
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
-            1,
-            httpService:JSONDecode(
-                [[{"FontColor":"ffffff","MainColor":"191919","AccentColor":"7d55ff","BackgroundColor":"0f0f0f","OutlineColor":"282828"}]]
-            ),
-        },
+    1,
+    httpService:JSONDecode(
+        [[{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"cac3d1","BackgroundColor":"232323","OutlineColor":"ffffff"}]]
+    ),
+},
         ["BBot"] = {
             2,
             httpService:JSONDecode(
